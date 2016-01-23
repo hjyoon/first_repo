@@ -11,9 +11,9 @@ int main(void)
 
 
     // Add B
-    printf("A-1");
-    printf("A-2");
-    printf("A-3");
+    printf("B-1");
+    printf("B-2");
+    printf("B-3");
     //
 
 
