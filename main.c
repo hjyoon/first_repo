@@ -2,15 +2,11 @@
 
 int main(void)
 {
-    printf("B-1")
-    printf("B-2")
-    printf("B-3")
-    printf("B-4")
-
-    printf("A-1")
-    printf("A-2")
-    printf("A-3")
-    printf("A-4")
+    // Start A
+    // END A
+    
+    // Start B
+    // END B
 
     return 0;
 }
