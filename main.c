@@ -8,6 +8,8 @@ int main(void)
     printf("Hello World!\n");
     printf("Add_1")
     gugudan_dy();
+    
+    printf("HyoJeon");
 
     return 0;
 }
