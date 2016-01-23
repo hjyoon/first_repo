@@ -2,10 +2,10 @@
 
 int main(void)
 {
-    // Start A
+    // START A
     // END A
     
-    // Start B
+    // START B
     // END B
 
     return 0;
