@@ -2,7 +2,7 @@
 
 int Compare_Number(int inputNumber[], int randomNumber[]){
   int number=sizeof(inputNumber)/4 //inputNumber입력개수
-  int i,flag[number]={0},cnt=0;
+  int i,cnt=0;
   
   for(i=0;i<number-1;i++){
     if(inputNumber[i]==randomNumber[i]){
