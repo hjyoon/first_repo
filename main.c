@@ -11,6 +11,13 @@ int main(void)
     printf("A-6");
     printf("A-7");
     
+    printf("B-1");
+    printf("B-2");
+    printf("B-3");
+    printf("B-4");
+    printf("B-5");
+    printf("B-6");
+    printf("B-7");
     // END B
 
     return 0;
