@@ -1,8 +1,4 @@
-#include "custom.h
-
-void Input_Number(int[]);
-void Randomize_Number(int[]);
-int Compare_Number(int[], int[]);
+#include "custom.h"
 
 int main(void)
 {
