@@ -8,6 +8,7 @@ int main(void)
 	Input_Number(inputNumber);
 	Randomize_Number(&randomNumber);
 
+	Print_Win_Number(randomNumber);
 	printf("Your rank is %d\n", Compare_Number(inputNumber, randomNumber));
 
 	return 0;
