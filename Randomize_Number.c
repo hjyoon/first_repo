@@ -7,5 +7,9 @@ void Randomize_Number(int &random[])
   
   for(i=0; i<7; i++) {
     random[i] = rand()%45+1;
+    if(random[i] == random[i-1]) {
+      i--;
+      continue;
+    }
   }
 }
