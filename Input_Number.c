@@ -7,6 +7,6 @@ void Input_Number(int randomNumber[])
 
 	size = sizeof(randomNumber);
 	for (i = 0; i < size; i++) {
-		scanf("%d", &randomNumber[i]);
+		scanf_s("%d", &randomNumber[i]);
 	}
 }
