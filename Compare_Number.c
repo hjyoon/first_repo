@@ -2,11 +2,13 @@
 
 int Compare_Number(int inputNumber[], int randomNumber[]){
   int number=7; //inputNumber입력개수
-  int i,cnt=0;
+  int i,j,cnt=0;
   
   for(i=0;i<number-1;i++){
-    if(inputNumber[i]==randomNumber[i]){
+    for(j=i;j<number-1;j++){
+      if(inputNumber[i]==randomNumber[j]){
       cnt++;
+      }
     }
   }
   if(cnt==6 && (inputNumber[number]!=randomNumber[number])){return 1;} 
