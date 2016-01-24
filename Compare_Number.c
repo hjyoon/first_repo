@@ -11,9 +11,10 @@ int Compare_Number(int inputNumber[], int randomNumber[]){
       }
     }
   }
+  
   if(cnt==6 && (inputNumber[number]!=randomNumber[number])){return 1;} 
-  else if(cnt==5 && (inputNumber[number]==randomNumber[number])){return 2;} 
-  else if(cnt==5 && (inputNumber[number]!=randomNumber[number])){return 3;}
-  else if(cnt==4 && (inputNumber[number]!=randomNumber[number])){return 4;}
-  else if(cnt==3 && (inputNumber[number]!=randomNumber[number])){return 5;}
+  if(cnt==5 && (inputNumber[number]==randomNumber[number])){return 2;} 
+  if(cnt==5 && (inputNumber[number]!=randomNumber[number])){return 3;}
+  if(cnt==4 && (inputNumber[number]!=randomNumber[number])){return 4;}
+  if(cnt==3 && (inputNumber[number]!=randomNumber[number])){return 5;}
 }
