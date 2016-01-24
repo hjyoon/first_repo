@@ -1,6 +1,6 @@
 #include "custom.h"
 // 받은 인자에 랜덤한 숫자 7개를 저장한다.
-void Randomize_Number(int random[])
+void Randomize_Number(int randomNumber[])
 {
   int i=0, k=0;
 
