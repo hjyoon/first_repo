@@ -16,4 +16,5 @@ int Compare_Number(int inputNumber[], int randomNumber[]){
   else if(cnt==5 && (inputNumber[number]!=randomNumber[number])){return 3;}
   else if(cnt==4 && (inputNumber[number]!=randomNumber[number])){return 4;}
   else if(cnt==3 && (inputNumber[number]!=randomNumber[number])){return 5;}
+  return 6;
 }
