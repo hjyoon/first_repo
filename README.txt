@@ -2,7 +2,7 @@
 
 void Input_Number(int[]);         // 받은 인자에 사용자로부터 입력받은 숫자 7개를 저장한다.
 void Randomize_Number(int[]);     // 받은 인자에 랜덤한 숫자 7개를 저장한다.
-int Compare_Number(int[], int[]); // 받은 인자 두개에 들어있는 숫자들을 비교한다.
+int Compare_Number(int[], int[]); // 받은 인자 두개에 들어있는 숫자들을 비교한다. 그리고, 등수를 반환한다.
 
 // 7번째 인덱스의 숫자는 보너스 숫자로 한다.
 // 숫자는 겹쳐지게 저장될 수 없다.
