@@ -6,7 +6,7 @@ int main(void)
 	int randomNumber[7] = { 0, };
 
 	Input_Number(inputNumber);
-	Randomize_Number(randomNumber);
+	Randomize_Number(&randomNumber);
 
 	printf("Your rank is %d\n", Compare_Number(inputNumber, randomNumber));
 
