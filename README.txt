@@ -1,4 +1,4 @@
-# first_repo
+
 
 void Input_Number(int[]);         // 받은 인자에 사용자로부터 입력받은 숫자 7개를 저장한다.
 void Randomize_Number(int[]);     // 받은 인자에 랜덤한 숫자 7개를 저장한다.
