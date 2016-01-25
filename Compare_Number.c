@@ -1,7 +1,7 @@
 #include "custom.h"
 
 int Compare_Number(int inputNumber[], int randomNumber[]){
-  int number=7;
+  int number=6;
   int i,j,cnt=0;
   
   for(i=0;i<number;i++){
