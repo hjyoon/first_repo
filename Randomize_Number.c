@@ -1,7 +1,9 @@
 #include "custom.h"
+
 void Randomize_Number(int randomNumber[])
 {
   int i=0, k=0;
+  int blank=0;
 
   srand(time(NULL));
   
@@ -13,6 +15,11 @@ void Randomize_Number(int randomNumber[])
   			i--;
   			break;
   		}
+		if( randomNumber[i] < randomNumber[k]) {
+			blank = randomNumber[i];
+			randomNumber[i] = randomNumber[k];
+			randomNumber[k] = blank;
+		}
   	}//end-for1_1
   }//end-for1
 }
