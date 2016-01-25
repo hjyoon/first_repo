@@ -15,7 +15,7 @@ void Randomize_Number(int randomNumber[])
   			i--;
   			break;
   		}
-		if( randomNumber[i] < randomNumber[k]) {
+		if( randomNumber[i] < randomNumber[k] && k < 5) {
 			blank = randomNumber[i];
 			randomNumber[i] = randomNumber[k];
 			randomNumber[k] = blank;
