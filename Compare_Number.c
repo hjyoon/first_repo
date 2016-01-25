@@ -1,11 +1,11 @@
 #include "custom.h"
 
 int Compare_Number(int inputNumber[], int randomNumber[]){
-  int number=7; //inputNumber입력개수
+  int number=7;
   int i,j,cnt=0;
   
   for(i=0;i<number;i++){
-    for(j=i;j<number;j++){
+    for(j=0;j<number;j++){
       if(inputNumber[i]==randomNumber[j]){
       cnt++;
       }
