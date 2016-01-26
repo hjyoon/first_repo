@@ -5,7 +5,10 @@ int main(void)
 	int inputNumber[7] = { 0, };
 	int randomNumber[7] = { 0, };
 
-	Input_Number(inputNumber);
+	while(Input_Number(inputNumber)) {
+		printf("Please, Input between 1 and 45 numbers\n");
+	}
+
 	Randomize_Number(randomNumber);
 
 	Print_Win_Number(randomNumber);
