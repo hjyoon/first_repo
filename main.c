@@ -1,5 +1,7 @@
 #include "ride.h"
 
+int N=0;
+
 int main(void)
 {
 	char time[50][8];	//[50]ride num, starttime [][0~3], endtiem[][4~7];
