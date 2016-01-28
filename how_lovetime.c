@@ -1,3 +1,3 @@
-how_lovetime() {
+void how_lovetime() {
 
 }
