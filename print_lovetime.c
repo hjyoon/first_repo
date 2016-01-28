@@ -1,3 +1,3 @@
-print_lovetime() {
+void print_lovetime() {
 
 }
