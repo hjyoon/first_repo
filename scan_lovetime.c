@@ -1,3 +1,3 @@
-void scan_lovetime() {
+void scan_lovetime(char time[][]) {
 
 }
