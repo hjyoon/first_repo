@@ -1,6 +1,6 @@
-#include "ride.h"
+﻿#include "func.h"
 
-int N=0;	//놀이기구 갯수
+int N=0;
 
 int main(void)
 {
@@ -13,8 +13,8 @@ int main(void)
 						//ride3 = time[2][0~7] = {2},{1, 2, 3, 0, 1, 6, 5, 0};
 	int lovetime; 
 
-	scan_lovetime(time[][]);
-	lovetime = how_lovetime(time[][]);
+	scan_lovetime(time);
+	lovetime = how_lovetime(time);
 	printf("%d\n", lovetime);
 
 	return 0;
