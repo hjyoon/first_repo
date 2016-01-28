@@ -1,6 +1,6 @@
 #include "ride.h"
 
-int N=0;
+int N=0;	//놀이기구 갯수
 
 int main(void)
 {
