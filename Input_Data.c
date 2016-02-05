@@ -11,7 +11,7 @@ int Input_Data(SourceDataDirector* sourceDirector)
 	sourceDirector->source = (SourceData*)malloc(sizeof(SourceData) * cnt);
 
 	if (sourceDirector->source == NULL) {
-		printf("╦ч╦П╦╝ гр╢Г ©║╥╞\n");
+		printf("К╘■К╙╗К╕╛ М∙═К▀╧ Л≈░К÷╛\n");
 		exit(-1);
 	}
 
