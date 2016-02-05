@@ -7,7 +7,7 @@ int Processing_Data(PartTimeDirector* partTimeDirector, SourceDataDirector* sour
 	partTimeDirector->partTime = (PartTimeDirector*)malloc(sizeof(PartTimeDirector)*sourceDirector->size);
 
 	if (partTimeDirector->partTime == NULL) {
-		printf("╦ч╦П╦╝ гр╢Г ©║╥╞\n");
+		printf("К╘■К╙╗К╕╛ М∙═К▀╧ Л≈░К÷╛\n");
 		exit(-1);
 	}
 
