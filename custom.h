@@ -14,6 +14,7 @@ int Sort_Data(PartTimeDirector* partTimeDirector);
 int Calculate_Longest_BreakTime(PartTimeDirector* partTimeDirector);
 int Check_Data(int start_temp, int end_temp);
 int Swap_Data(PartTime* partTime_A, PartTime* partTime_B);
+int Free_Memory(PartTimeDirector* partTimeDirector, SourceDataDirector* sourceDirector);
 
 typedef struct PartTimeType {
 	struct StartType {

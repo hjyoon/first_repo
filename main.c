@@ -15,5 +15,7 @@ int main(void)
 	
 	printf("%d\n", Calculate_Longest_BreakTime(&partTimeDirector));
 
+	Free_Memory(&partTimeDirector, &sourceDirector);
+
 	return 0;
 }
