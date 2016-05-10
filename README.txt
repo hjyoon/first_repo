@@ -8,9 +8,9 @@ DNA 서열은 4개의 문자 {a, c, g, t}로 이루어진 문자열이다. DNA �
 이러한 KOI유전자는 다음의 조건을 만족한다. 
 1. at 와 gc 는 가장 짧은 길이의 KOI 유전자이다. 
 2. 어떤 X가 KOI 유전자라면, aXt와 gXc도 KOI 유전자이다. 예를 들어, agct 와 gaattc는 KOI유전자이나, 
-    tgca 와 cgattc 는 KOI유전자가 아니다. 
+tgca 와 cgattc 는 KOI유전자가 아니다. 
 3. 어떤 X와 Y가 KOI 유전자라면 이 둘을 연결한 XY 도 KOI 유전자이다. 예를 들면 aattgc 또는 atat 는 KOI 유전자이지만 
-    atcg 또는 tata 는 KOI 유전자가 아니다. 
+atcg 또는 tata 는 KOI 유전자가 아니다. 
 
 KOI 유전자는 DNA서열 중에서 부분서열로 구성되어 있다. 
 부분서열이란 주어진 서열에서 임의의 위치에 있는 0개 이상의 문자들을 삭제해서 얻어지는 서열이다. 
